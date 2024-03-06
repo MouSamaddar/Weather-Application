@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url('https://img.freepik.com/free-vector/aesthetic-purple-sky-background-vector-glitter-clouds-design_53876-157556.jpg?size=626&ext=jpg&ga=GA1.2.969831894.1654975018&semt=ais');  
+
+}
+
+
+.container{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background:linear-gradient(rgba(150,0,0,0.1),rgba(150,0,0,0.1)),url('https://img.freepik.com/free-vector/evening-cloudy-sky-purple-background-with-group-cumulus-cirrus-clouds-flat-cartoon-illustration_1284-62768.jpg?w=1060&t=st=1705323435~exp=1705324035~hmac=527d3d8b96c94841fd48443192968fbb89cc047b7e6a42c41b4eed3bc5a2645b');
+    border-radius: 50px;
+    padding: 100px;
+    text-align: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background-color: #2fd127;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 20px auto;
+}
+
+
+button:hover{
+  background-color: #45a049;
+  transform: scale(1.05);
+}
